@@ -1,0 +1,41 @@
+{
+  "name": "skynet-marketplace",
+  "owner": {
+    "name": "CornelB",
+    "url": "https://github.com/CornelB"
+  },
+  "metadata": {
+    "description": "SkyNET plugins for Claude Code: review council, usage-aware delegation, and engineering skills."
+  },
+  "plugins": [
+    {
+      "name": "review-council",
+      "description": "Four-lens code review (simplicity, functionality, security, maintainability), with fresh-context local subagents or a tribunal of external AI coding harnesses, merged into one verified, deduplicated report.",
+      "source": {
+        "source": "github",
+        "repo": "CornelB/SkyNET-review"
+      },
+      "category": "code-review"
+    },
+    {
+      "name": "skynet",
+      "description": "Delegate work from Claude Code to Codex, Antigravity or local Ollama, routed by live usage, as tracked background jobs.",
+      "source": {
+        "source": "github",
+        "repo": "CornelB/SkyNET-agents"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "skynet-skills",
+      "description": "Engineering skills: debugging, grumpy review, task and loop setup, Jira, Crashlytics BigQuery, Google Play vitals, STE100 rewriting, and more.",
+      "source": {
+        "source": "github",
+        "repo": "CornelB/SkyNET-skills"
+      },
+      "category": "engineering",
+      "strict": false,
+      "skills": "./skills/"
+    }
+  ]
+}
