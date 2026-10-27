@@ -19,7 +19,7 @@
     },
     {
       "name": "SkyNET-agents",
-      "description": "Delegate work from Claude Code to Codex, Antigravity or local Ollama, routed by live usage, as tracked background jobs.",
+      "description": "Delegate work from Claude Code to Codex, Antigravity, OpenRouter or local Ollama, routed by live usage, as tracked background jobs.",
       "source": {
         "source": "github",
         "repo": "CornelB/SkyNET-agents"
