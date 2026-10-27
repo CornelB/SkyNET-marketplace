@@ -15,15 +15,15 @@ claude plugin marketplace add CornelB/SkyNET-marketplace
 ```
 
 ```bash
-claude plugin install SkyNET-review@skynet-marketplace
+claude plugin install SkyNET-review@SkyNET-marketplace
 ```
 
 ```bash
-claude plugin install SkyNET-agents@skynet-marketplace
+claude plugin install SkyNET-agents@SkyNET-marketplace
 ```
 
 ```bash
-claude plugin install SkyNET-skills@skynet-marketplace
+claude plugin install SkyNET-skills@SkyNET-marketplace
 ```
 
 Private source repos clone with your own git credentials (`gh auth login` or an SSH key with access).
@@ -31,7 +31,7 @@ Private source repos clone with your own git credentials (`gh auth login` or an 
 ## Update
 
 ```bash
-claude plugin marketplace update skynet-marketplace
+claude plugin marketplace update SkyNET-marketplace
 ```
 
 Each plugin is fetched from its repo's default branch; this repo only lists them.
