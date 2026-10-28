@@ -5,7 +5,7 @@
     "url": "https://github.com/CornelB"
   },
   "metadata": {
-    "description": "SkyNET plugins for Claude Code: review council and usage-aware delegation."
+    "description": "SkyNET plugins for Claude Code: review board and usage-aware delegation."
   },
   "plugins": [
     {
